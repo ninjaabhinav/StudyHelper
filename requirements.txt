@@ -1,14 +1,33 @@
-langchain
-langchain-community
-langchain-core
-sentence-transformers
-faiss-cpu
-youtube-transcript-api
-duckduckgo-search
-groq
-reportlab
 streamlit
+
+# Core
+numpy
+pandas
+
+# ML
+scikit-learn
+joblib
+
+# LLM / NLP
+transformers==4.36.2
+sentence-transformers
+
+# API / env
 python-dotenv
-tiktoken
-beautifulsoup4
+
+# Utilities
+tqdm
 requests
+
+# Optional but often needed
+openai
+
+# Torch (required because transformers internally needs it)
+torch
+torchvision
+
+# If using embeddings / vector search
+faiss-cpu
+
+# Testing (optional)
+pytest
