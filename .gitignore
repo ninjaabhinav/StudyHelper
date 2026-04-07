@@ -1,0 +1,71 @@
+# 🔒 Python cache files
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# 🔒 Virtual environments
+
+venv/
+env/
+ENV/
+.venv/
+
+# 🔒 Environment variables (VERY IMPORTANT)
+
+.env
+.env.*
+
+# 🔒 Jupyter Notebook checkpoints
+
+.ipynb_checkpoints/
+
+# 🔒 Logs
+
+*.log
+
+# 🔒 OS files
+
+.DS_Store
+Thumbs.db
+
+# 🔒 VS Code / IDE
+
+.vscode/
+.idea/
+
+# 🔒 Python build files
+
+build/
+dist/
+*.egg-info/
+
+# 🔒 Test / coverage
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 🔒 Temporary files
+
+*.tmp
+*.swp
+
+# 🔒 Large ML / Data files (IMPORTANT - adjust if needed)
+
+*.csv
+*.pkl
+*.joblib
+*.h5
+
+# 🔒 Streamlit cache
+
+.streamlit/
+
+# 🔒 Node modules (if any frontend added later)
+
+node_modules/
+
+# 🔒 Misc
+
+*.sqlite3

@@ -1,0 +1,14 @@
+langchain
+langchain-community
+langchain-core
+sentence-transformers
+faiss-cpu
+youtube-transcript-api
+duckduckgo-search
+groq
+reportlab
+streamlit
+python-dotenv
+tiktoken
+beautifulsoup4
+requests
