@@ -1,3 +1,4 @@
+# Streamlit UI
 streamlit
 
 # Core
@@ -8,26 +9,43 @@ pandas
 scikit-learn
 joblib
 
-# LLM / NLP
-transformers==4.36.2
-sentence-transformers
+# LangChain ecosystem
+langchain
+langchain-core
+langchain-community
+langchain-huggingface
+langchain-text-splitters
 
-# API / env
+# LLM providers
+langchain-groq
+openai
+
+# Embeddings / vector search
+sentence-transformers
+faiss-cpu
+
+# HuggingFace / transformers (safe version)
+transformers==4.36.2
+
+# Torch (needed by sentence-transformers)
+torch
+
+# Environment variables
 python-dotenv
+
+# YouTube transcript
+youtube-transcript-api
+
+# PDF generation
+reportlab
+
+# Web search
+duckduckgo-search
 
 # Utilities
 tqdm
 requests
 
-# Optional but often needed
-openai
-
-# Torch (required because transformers internally needs it)
-torch
-torchvision
-
-# If using embeddings / vector search
-faiss-cpu
-
-# Testing (optional)
-pytest
+# Optional safety deps
+pydantic
+typing-extensions
