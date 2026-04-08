@@ -1,5 +1,4 @@
 streamlit
-
 numpy
 pandas
 scikit-learn
@@ -14,6 +13,10 @@ langchain-groq
 openai
 
 sentence-transformers
+faiss-cpu
+
+transformers==4.36.2
+torch
 
 python-dotenv
 youtube-transcript-api
