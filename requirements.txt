@@ -1,51 +1,25 @@
-# Streamlit UI
 streamlit
 
-# Core
 numpy
 pandas
-
-# ML
 scikit-learn
 joblib
 
-# LangChain ecosystem
-langchain
-langchain-core
-langchain-community
-langchain-huggingface
+langchain==0.1.16
+langchain-core==0.1.52
+langchain-community==0.0.32
 langchain-text-splitters
 
-# LLM providers
 langchain-groq
 openai
 
-# Embeddings / vector search
 sentence-transformers
-faiss-cpu
 
-# HuggingFace / transformers (safe version)
-transformers==4.36.2
-
-# Torch (needed by sentence-transformers)
-torch
-
-# Environment variables
 python-dotenv
-
-# YouTube transcript
 youtube-transcript-api
-
-# PDF generation
 reportlab
-
-# Web search
 duckduckgo-search
-
-# Utilities
 tqdm
 requests
-
-# Optional safety deps
 pydantic
 typing-extensions
