@@ -27,7 +27,6 @@ st.set_page_config(
     page_icon="📚",
     layout="wide"
 )
-st.set_page_config(page_title="StudyHelper", layout="wide")
 
 st.title("StudyHelper AI Tutor")
 
