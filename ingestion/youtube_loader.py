@@ -18,13 +18,7 @@ def extract_video_id(url):
 
 
 def load_transcript(url):
-
     video_id = extract_video_id(url)
-
-    api = YouTubeTranscriptApi()
-
-    transcript = api.fetch(video_id)
-
-    text = " ".join([t.text for t in transcript])
-
+    transcript = YouTubeTranscriptApi.get_transcript(video_id)
+    text = " ".join([t["text"] for t in transcript])
     return text
