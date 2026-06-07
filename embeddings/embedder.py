@@ -8,6 +8,7 @@ def get_embedding_model():
     global _embedding_model
 
     if _embedding_model is None:
+        os.environ["TOKENIZERS_PARALLELISM"] = "false"
         _embedding_model = HuggingFaceEmbeddings(
             model_name=Config.EMBEDDING_MODEL,
             model_kwargs={"device": "cpu"},

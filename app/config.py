@@ -1,4 +1,7 @@
 import os
+os.environ["HF_ENDPOINT"] = "https://huggingface.co"
+os.environ["TRANSFORMERS_OFFLINE"] = "0"
+os.environ["HUGGINGFACE_HUB_TOKEN"] = os.getenv("HF_TOKEN", "")
 from dotenv import load_dotenv
 
 load_dotenv()
