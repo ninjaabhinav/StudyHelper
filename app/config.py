@@ -7,7 +7,7 @@ class Config:
 
     GROQ_API_KEY = os.getenv("GROQ_API_KEY")
 
-    EMBEDDING_MODEL = "BAAI/bge-small-en"
+    EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 
     CHUNK_SIZE = 1200
     CHUNK_OVERLAP = 200
